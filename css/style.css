@@ -198,6 +198,14 @@ header img{
     height: 250px !important;
     object-fit: cover;
 }
+.card{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #dbdbdb8a;
+    border: none;
+}
+.card .icon{
+    width: 40px;
+}
 /* =================================
      media
   ==================================== */
