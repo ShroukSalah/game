@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "regular";
+    word-break: break-word;
+    overflow-x: hidden;
+    letter-spacing: 0px;
+    background-color: #fff;
+    min-height: 100vh;
+    color: #585f63;
+    direction: rtl;
+    text-align: right;
+}
+
+.regular {
+    font-family: "regular";
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Cairo-Medium.ttf);
+}
+
+ul li,
+a:hover {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* display: none; */
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    /* display: none; */
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #28A8AF;
+    /* display: none; */
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #252b37;
+    /* display: none; */
+}
+
+.form-control {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    border-color: #28a8af;
+    color: #222;
+    box-shadow: 0px 0px 5px #d6d6d666;
+    text-align: right;
+}
+
+.form-control::placeholder {
+    color: rgb(195, 195, 195);
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 4px 10px 3px #0000001c;
+    background-color: transparent !important;
+    border-color: #28A8AF;
+    color: #28A8AF;
+}
+
+::selection {
+    color: #28A8AF;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea.form-control,
+textarea.form-control:focus {
+    height: auto;
+}
+
+.default-btn {
+    /* border: none; */
+    border-radius: 5px;
+    line-height: 2;
+    height: 45px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-width: 1px;
+    background: rgb(40 168 175 / 20%);
+    color: #28a8af;
+    font-weight: 700;
+    width: 100%;
+}
+
+.default-btn:hover {
+    background: #28a8af;
+    color: #fff;
+}
+
+.btn:focus,
+.btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.br-0 {
+    border-radius: 0px;
+}
+
+.br-5 {
+    border-radius: 5px !important;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-15 {
+    border-radius: 15px;
+}
+
+.br-50 {
+    border-radius: 50px;
+}
+.form-select:focus {
+    border-color: #28A8AF;
+    outline: 0;
+    box-shadow: none;
+    color: #fff;
+}
+.row {
+    margin-inline: 0px;
+}
+/* ================== colors ================== */
+
+.default-bg {
+    background-color: #28A8AF !important;
+}
+
+.default-color,
+a:hover {
+    color: #28A8AF;
+}
+/* =============== hover ================ */
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* ======================== header ================= */
+
+
+header img{
+    height: 250px !important;
+    object-fit: cover;
+}
+/* =================================
+     media
+  ==================================== */
+@media (max-width: 991.99px) {}
+
+@media (min-width: 768.99px) {
+    footer .accordion-button::after {
+        background-image: none;
+    }
+}
+
+@media (max-width: 768px) {}
