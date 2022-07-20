@@ -88,15 +88,7 @@
         <img src="images/header.png" class="img-fluid w-100" alt="header">
     </header>
     <div class="container">
-        <div class="alert alert-success  alert-dismissible mt-3">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <h6 class="fw-bold">
-                خبر سعيد
-            </h6>
-            <p class="mb-0">
-                تم اضافة 40 الف ذهبه مجانا اليوم الثلاثاء تاريخ19 -7-2022
-            </p>
-        </div>
+       
         <div class="row my-5">
             <div class="col-lg-3 my-3 ">
                 <div class="p-3 card h-100">
@@ -166,54 +158,29 @@
             <div class="col-lg-6 my-3 ">
                 <div class="p-3 card h-100">
                     <h5 class="fw-bold text-dark border-bottom pb-4 mb-0 mt-3">
-                        القائمة الرئيسية
+                        تغيير كلمة السر
                     </h5>
-
-                    <div class="row">
-                        <div class="col-6 my-3">
-                            <a href="addpoint.html" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    إضافة نقاط
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 my-3">
-                            <a href="buyvoucher.html" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    شراء كوبون
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 my-3">
-                            <a href="account.html" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    حسابي
-                                </div>
-                            </a>
-                        </div>
-                    
-                        <div class="col-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    فتح تذكرة للدعم
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    تذاكر سابقة
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    صندوق الكوبونات
-                                </div>
-                            </a>
-                        </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <div class="form-group  my-3">
+                                <label for="lastPass" class="mb-3 fw-bold">كلمة السر القديمة</label>
+                                <input type="password" class="form-control" id="lastPass">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="newPass" class="mb-3 fw-bold">اكتب كلمة السر الجديدة</label>
+                                <input type="password" class="form-control" id="newPass">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="rePass" class="mb-3 fw-bold"> اكتب كلمة السر مره اخري</label>
+                                <input type="password" class="form-control" id="rePass">
+                            </div>
+                          
+                           
+                             
+                            <button type="submit" class="btn default-btn mt-4">ارسال</button>
+                        </form>
                     </div>
+
                 </div>
             </div>
             <div class="col-lg-3 my-3 ">
@@ -237,9 +204,9 @@
                 <a href="" class="mx-3 text-dark d-block d-lg-inline my-3">
                     قوانين منجم الذهب
                 </a>
-                
+
             </div>
-         
+
         </div>
     </footer>
     <!--scripts -->
