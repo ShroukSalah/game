@@ -158,116 +158,47 @@
             <div class="col-lg-6 my-3 ">
                 <div class="p-3 card h-100">
                     <h5 class="fw-bold text-dark border-bottom pb-4 mb-0 mt-3">
-                        قائمة الكوبونات المتاحه
+                        تعديل البيانات
                     </h5>
-
-                    <div class="row">
-                        <div class="col-md-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    <h4>
-                                        كود 500 ذهبه
-                                    </h4>
-                                    <img src="images/copon1.png" class="img-fluid copon-img" alt="copon">
-                                    <div class="my-3">
-                                        <h6 class="d-inline-block fw-bold text-dark">
-                                            سعر الكوبون:
-                                        </h6>
-                                        <span>
-                                            500 ذهبه
-                                        </span>
-                                    </div>
-                                    <a href="" class="btn default-btn">
-                                        شراء
-                                    </a>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    <h4>
-                                        كود 1000 ذهبه
-                                    </h4>
-                                    <img src="images/copon2.png" class="img-fluid copon-img" alt="copon">
-                                    <div class="my-3">
-                                        <h6 class="d-inline-block fw-bold text-dark">
-                                            سعر الكوبون:
-                                        </h6>
-                                        <span>
-                                            1000  ذهبه
-                                        </span>
-                                    </div>
-                                    <a href="" class="btn default-btn">
-                                        شراء
-                                    </a>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    <h4>
-                                        كود 5000 ذهبه
-                                    </h4>
-                                    <img src="images/copon3.png" class="img-fluid copon-img" alt="copon">
-                                    <div class="my-3">
-                                        <h6 class="d-inline-block fw-bold text-dark">
-                                            سعر الكوبون:
-                                        </h6>
-                                        <span>
-                                            5000  ذهبه
-                                        </span>
-                                    </div>
-                                    <a href="" class="btn default-btn">
-                                        شراء
-                                    </a>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    <h4>
-                                        كود 10000 ذهبه
-                                    </h4>
-                                    <img src="images/copon4.png" class="img-fluid copon-img" alt="copon">
-                                    <div class="my-3">
-                                        <h6 class="d-inline-block fw-bold text-dark">
-                                            سعر الكوبون:
-                                        </h6>
-                                        <span>
-                                            10000  ذهبه
-                                        </span>
-                                    </div>
-                                    <a href="" class="btn default-btn">
-                                        شراء
-                                    </a>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6 my-3">
-                            <a href="" class="text-dark">
-                                <div class="card h-100 text-center p-4">
-                                    <h4>
-                                        كود 25000 ذهبه
-                                    </h4>
-                                    <img src="images/copon5.png" class="img-fluid copon-img" alt="copon">
-                                    <div class="my-3">
-                                        <h6 class="d-inline-block fw-bold text-dark">
-                                            سعر الكوبون:
-                                        </h6>
-                                        <span>
-                                            25000  ذهبه
-                                        </span>
-                                    </div>
-                                    <a href="" class="btn default-btn">
-                                        شراء
-                                    </a>
-                                </div>
-                            </a>
-                        </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <div class="form-group  my-3">
+                                <label for="username" class="mb-3 fw-bold"> اسم المستخدم</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="firstName" class="mb-3 fw-bold"> الاسم الاول</label>
+                                <input type="text" class="form-control" id="firstName">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="midName" class="mb-3 fw-bold"> الاسم الاوسط</label>
+                                <input type="text" class="form-control" id="midName">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="lastName" class="mb-3 fw-bold"> الاسم الاخير</label>
+                                <input type="text" class="form-control" id="lastName">
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="mail" class="mb-3 fw-bold"> البريد الالكتروني الصحيح</label>
+                                <input type="email" class="form-control" id="mail">
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="country" class="mb-3 fw-bold">  الدولة  </label>
+                                <select class="form-control" id="country">
+                                    <option>مصر</option>
+                                    <option>السعودية</option>
+                                   
+                                  </select>
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="phone" class="mb-3 fw-bold">رقم الجوال - بدون صفر فى البداية</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                             
+                            <button type="submit" class="btn default-btn mt-4">ارسال</button>
+                        </form>
                     </div>
+
                 </div>
             </div>
             <div class="col-lg-3 my-3 ">
